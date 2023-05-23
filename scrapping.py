@@ -10,7 +10,6 @@ import re
 from google.cloud import storage
 from google.oauth2 import service_account
 from sqlalchemy import create_engine
-import pymysql
 
 engine = create_engine("sqlite://")
 
